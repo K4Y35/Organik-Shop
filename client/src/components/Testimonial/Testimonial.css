@@ -1,0 +1,129 @@
+.testimonial-section {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url(../../resources/testimonialBack.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.our-cutomer-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #274c5b;
+}
+
+.circle-img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.customer-image-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.testimonial-divider {
+  height: 2px solid #751717;
+  width: 80%;
+}
+.circle-div {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #7eb693;
+  padding: 15px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.circle-main-text {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.circle-secondary-text {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.testimonial-circle {
+  display: flex;
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .circle-div {
+    height: 140px;
+    width: 140px;
+    border: 4px solid #7eb693;
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .circle-main-text {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .circle-secondary-text {
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
+@media (max-width: 650px) {
+  .circle-div {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #7eb693;
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .circle-main-text {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .circle-secondary-text {
+    font-weight: 500;
+    font-size: 8px;
+  }
+}
+@media (max-width: 476px) {
+  .circle-div {
+    height: 70px;
+    width: 70px;
+    border: 2px solid #7eb693;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .circle-main-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .circle-secondary-text {
+    font-weight: 500;
+    font-size: 8px;
+    text-align: center;
+  }
+}

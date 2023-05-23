@@ -1,0 +1,61 @@
+.offer-section {
+  width: 100%;
+  height: 400px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bgimgcard-div {
+  width: 450px;
+  height: 220px;
+  border-radius: 30px;
+  color: white;
+  background-image: url("../../resources/bananaBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.apple-background {
+  background-image: url("../../resources/appleBackground.jpg") !important;
+  color: #274c5b;
+}
+.fancy-text-white {
+  font-family: "Yellowtail", cursive;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+@media (max-width: 476px) {
+  .offer-section {
+    width: 100%;
+    height: 60vh;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bgimgcard-div {
+    width: 50%;
+    height: 200px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .fancy-text-white {
+    font-family: "Yellowtail", cursive;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .bgimgcard-text {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}

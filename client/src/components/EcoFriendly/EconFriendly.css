@@ -1,0 +1,102 @@
+.EconFriendly-section {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.EconFriendly-leftImg {
+  width: 50%;
+  height: 100%;
+  background-image: url(../../resources/naturePhtoo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.EconFriendly-content {
+  background-color: white;
+  width: 50%;
+  height: 80%;
+  border-radius: 20px;
+  margin-left: -50px;
+  padding: 60px;
+}
+.eco-maintext {
+  color: #274c5b;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.eco-secondary {
+  color: #274c5b;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 650px) {
+  .EconFriendly-content {
+    background-color: white;
+    max-width: 50%;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: -50px;
+    padding: 40px;
+  }
+  .eco-maintext {
+    color: #274c5b;
+    font-size: 26px;
+    font-weight: bolder;
+  }
+  .eco-secondary {
+    color: #274c5b;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .EconFriendly-content p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 476px) {
+  .EconFriendly-section {
+    width: 100%;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+  }
+  .EconFriendly-leftImg {
+    width: 50%;
+    height: 100%;
+    background-image: url(../../resources/naturePhtoo.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .EconFriendly-content {
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: -50px;
+    padding: 30px;
+  }
+  .eco-maintext {
+    color: #274c5b;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .eco-secondary {
+    color: #274c5b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .EconFriendly-content p {
+    font-size: 12px;
+  }
+  .EconFriendly-content {
+    overflow: hidden;
+  }
+  .econfancy {
+    font-size: 16px !important;
+  }
+}

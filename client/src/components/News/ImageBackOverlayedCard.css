@@ -1,0 +1,163 @@
+.ImageBackOverlayedCard {
+  height: 400px;
+  width: 50%;
+  background-image: url(../../resources/leafs.png);
+  background-position: center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.rounded-date {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+  margin-left: -440px;
+  color: #274c5b;
+  font-weight: 600;
+}
+.overlayed-card {
+  height: 60%;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow added */
+  padding: 40px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  color: #274c5b;
+}
+.author-name {
+  font-size: 12px;
+  font-weight: 500;
+}
+.icon-color-golden {
+  color: #efd372;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.overlayed-main-text {
+  color: #274c5b;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.overlayed-card-margin {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .ImageBackOverlayedCard {
+    height: 300px;
+    margin: 10px;
+  }
+  .rounded-date {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -220px;
+  }
+  .rounded-date h3 {
+    font-size: 15px;
+  }
+  .overlayed-card {
+    height: 70%;
+    width: 80%;
+    padding: 20px;
+  }
+  .overlayed-card p {
+    font-size: 12px;
+  }
+  .overlayed-card button {
+    width: 130px;
+    height: 50px;
+  }
+
+  .overlayed-main-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .overlayed-card-margin {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 476px) {
+  .ImageBackOverlayedCard {
+    height: 300px;
+    width: 90%;
+    background-image: url(../../resources/leafs.png);
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 120px;
+  }
+  .rounded-date {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    margin-left: -220px;
+    color: #274c5b;
+    font-weight: 600;
+  }
+  .overlayed-card {
+    height: 70%;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow added */
+    padding: 20px;
+  }
+  .author {
+    display: flex;
+    align-items: center;
+    color: #274c5b;
+  }
+  .author-name {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .icon-color-golden {
+    color: #efd372;
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  .overlayed-main-text {
+    color: #274c5b;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .overlayed-card-margin {
+    margin-top: 10px;
+  }
+}
